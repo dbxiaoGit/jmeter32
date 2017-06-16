@@ -1,0 +1,177 @@
+2017-06-16 11:38:43,602 INFO o.a.j.u.JMeterUtils: Setting Locale to zh_CN
+2017-06-16 11:38:43,622 INFO o.a.j.JMeter: Copyright (c) 1998-2017 The Apache Software Foundation
+2017-06-16 11:38:43,624 INFO o.a.j.JMeter: Version 3.2
+2017-06-16 11:38:43,624 INFO o.a.j.JMeter: java.version=1.8.0_111
+2017-06-16 11:38:43,624 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2017-06-16 11:38:43,624 INFO o.a.j.JMeter: os.name=Windows 10
+2017-06-16 11:38:43,624 INFO o.a.j.JMeter: os.arch=amd64
+2017-06-16 11:38:43,624 INFO o.a.j.JMeter: os.version=10.0
+2017-06-16 11:38:43,624 INFO o.a.j.JMeter: file.encoding=UTF-8
+2017-06-16 11:38:43,624 INFO o.a.j.JMeter: Max memory     =1886912512
+2017-06-16 11:38:43,624 INFO o.a.j.JMeter: Available Processors =4
+2017-06-16 11:38:43,632 INFO o.a.j.JMeter: Default Locale=中文 (中国)
+2017-06-16 11:38:43,632 INFO o.a.j.JMeter: JMeter  Locale=中文 (中国)
+2017-06-16 11:38:43,632 INFO o.a.j.JMeter: JMeterHome=D:\tools\eclipse-jee-neon-1a-win32-x86_64\eclipse\workspace\jmeter32
+2017-06-16 11:38:43,632 INFO o.a.j.JMeter: user.dir  =D:\tools\eclipse-jee-neon-1a-win32-x86_64\eclipse\workspace\jmeter32
+2017-06-16 11:38:43,632 INFO o.a.j.JMeter: PWD       =D:\tools\eclipse-jee-neon-1a-win32-x86_64\eclipse\workspace\jmeter32
+2017-06-16 11:38:43,633 INFO o.a.j.JMeter: IP: 10.15.190.168 Name: LAPTOP-JGLK4GR8 FullName: LAPTOP-JGLK4GR8
+2017-06-16 11:38:43,783 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: javax.swing.plaf.metal.MetalLookAndFeel [Metal, CrossPlatform]
+2017-06-16 11:38:43,788 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2017-06-16 11:38:44,509 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2017-06-16 11:38:44,510 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2017-06-16 11:38:44,972 ERROR o.a.j.g.u.JMeterMenuBar: Exception registering interface org.apache.jmeter.gui.plugin.MenuCreator with implementation: org.jmeterplugins.repository.PluginManagerMenuCreator
+java.lang.ClassNotFoundException: org.jmeterplugins.repository.PluginManagerMenuCreator
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_111]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_111]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source) ~[?:1.8.0_111]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_111]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_111]
+	at java.lang.Class.forName(Unknown Source) ~[?:1.8.0_111]
+	at org.apache.jmeter.gui.util.JMeterMenuBar.createMenuBar(JMeterMenuBar.java:251) [core/:?]
+	at org.apache.jmeter.gui.util.JMeterMenuBar.<init>(JMeterMenuBar.java:164) [core/:?]
+	at org.apache.jmeter.gui.MainFrame.init(MainFrame.java:510) [core/:?]
+	at org.apache.jmeter.gui.MainFrame.<init>(MainFrame.java:240) [core/:?]
+	at org.apache.jmeter.JMeter.startGui(JMeter.java:375) [core/:?]
+	at org.apache.jmeter.JMeter.start(JMeter.java:519) [core/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_111]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_111]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_111]
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:249) [core/:?]
+2017-06-16 11:38:45,220 WARN o.a.j.g.u.MenuFactory: Could not instantiate class: com.atlantbh.jmeter.plugins.jsontoxmlconverter.gui.JSONToXMLConverterGui
+java.lang.ClassNotFoundException: com.atlantbh.jmeter.plugins.jsontoxmlconverter.gui.JSONToXMLConverterGui
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_111]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_111]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source) ~[?:1.8.0_111]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_111]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_111]
+	at java.lang.Class.forName(Unknown Source) ~[?:1.8.0_111]
+	at org.apache.jmeter.gui.util.MenuFactory.initializeMenus(MenuFactory.java:499) ~[core/:?]
+	at org.apache.jmeter.gui.util.MenuFactory.<clinit>(MenuFactory.java:169) ~[core/:?]
+	at org.apache.jmeter.control.gui.WorkBenchGui.createPopupMenu(WorkBenchGui.java:119) ~[core/:?]
+	at org.apache.jmeter.gui.tree.JMeterTreeNode.createPopupMenu(JMeterTreeNode.java:156) ~[core/:?]
+	at org.apache.jmeter.gui.action.EditCommand.doAction(EditCommand.java:46) ~[core/:?]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:74) ~[core/:?]
+	at org.apache.jmeter.gui.action.ActionRouter.lambda$0(ActionRouter.java:59) ~[core/:?]
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source) [?:1.8.0_111]
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source) [?:1.8.0_111]
+	at java.awt.EventQueue.access$500(Unknown Source) [?:1.8.0_111]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_111]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_111]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_111]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_111]
+	at java.awt.EventQueue.dispatchEvent(Unknown Source) [?:1.8.0_111]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source) [?:1.8.0_111]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source) [?:1.8.0_111]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source) [?:1.8.0_111]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_111]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_111]
+	at java.awt.EventDispatchThread.run(Unknown Source) [?:1.8.0_111]
+2017-06-16 11:38:45,234 WARN o.a.j.g.u.MenuFactory: Could not instantiate class: com.atlantbh.jmeter.plugins.jsonutils.jsonformatter.gui.JSONFormatterGui
+java.lang.ClassNotFoundException: com.atlantbh.jmeter.plugins.jsonutils.jsonformatter.gui.JSONFormatterGui
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_111]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_111]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source) ~[?:1.8.0_111]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_111]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_111]
+	at java.lang.Class.forName(Unknown Source) ~[?:1.8.0_111]
+	at org.apache.jmeter.gui.util.MenuFactory.initializeMenus(MenuFactory.java:499) ~[core/:?]
+	at org.apache.jmeter.gui.util.MenuFactory.<clinit>(MenuFactory.java:169) ~[core/:?]
+	at org.apache.jmeter.control.gui.WorkBenchGui.createPopupMenu(WorkBenchGui.java:119) ~[core/:?]
+	at org.apache.jmeter.gui.tree.JMeterTreeNode.createPopupMenu(JMeterTreeNode.java:156) ~[core/:?]
+	at org.apache.jmeter.gui.action.EditCommand.doAction(EditCommand.java:46) ~[core/:?]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:74) ~[core/:?]
+	at org.apache.jmeter.gui.action.ActionRouter.lambda$0(ActionRouter.java:59) ~[core/:?]
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source) [?:1.8.0_111]
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source) [?:1.8.0_111]
+	at java.awt.EventQueue.access$500(Unknown Source) [?:1.8.0_111]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_111]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_111]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_111]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_111]
+	at java.awt.EventQueue.dispatchEvent(Unknown Source) [?:1.8.0_111]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source) [?:1.8.0_111]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source) [?:1.8.0_111]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source) [?:1.8.0_111]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_111]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_111]
+	at java.awt.EventDispatchThread.run(Unknown Source) [?:1.8.0_111]
+2017-06-16 11:38:45,243 WARN o.a.j.g.u.MenuFactory: Could not instantiate class: com.atlantbh.jmeter.plugins.jsonutils.jsonpathassertion.gui.JSONPathAssertionGui
+java.lang.ClassNotFoundException: com.atlantbh.jmeter.plugins.jsonutils.jsonpathassertion.gui.JSONPathAssertionGui
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_111]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_111]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source) ~[?:1.8.0_111]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_111]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_111]
+	at java.lang.Class.forName(Unknown Source) ~[?:1.8.0_111]
+	at org.apache.jmeter.gui.util.MenuFactory.initializeMenus(MenuFactory.java:499) ~[core/:?]
+	at org.apache.jmeter.gui.util.MenuFactory.<clinit>(MenuFactory.java:169) ~[core/:?]
+	at org.apache.jmeter.control.gui.WorkBenchGui.createPopupMenu(WorkBenchGui.java:119) ~[core/:?]
+	at org.apache.jmeter.gui.tree.JMeterTreeNode.createPopupMenu(JMeterTreeNode.java:156) ~[core/:?]
+	at org.apache.jmeter.gui.action.EditCommand.doAction(EditCommand.java:46) ~[core/:?]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:74) ~[core/:?]
+	at org.apache.jmeter.gui.action.ActionRouter.lambda$0(ActionRouter.java:59) ~[core/:?]
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source) [?:1.8.0_111]
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source) [?:1.8.0_111]
+	at java.awt.EventQueue.access$500(Unknown Source) [?:1.8.0_111]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_111]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_111]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_111]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_111]
+	at java.awt.EventQueue.dispatchEvent(Unknown Source) [?:1.8.0_111]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source) [?:1.8.0_111]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source) [?:1.8.0_111]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source) [?:1.8.0_111]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_111]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_111]
+	at java.awt.EventDispatchThread.run(Unknown Source) [?:1.8.0_111]
+2017-06-16 11:38:45,244 WARN o.a.j.g.u.MenuFactory: Could not instantiate class: com.atlantbh.jmeter.plugins.jsonutils.jsonpathextractor.gui.JSONPathExtractorGui
+java.lang.ClassNotFoundException: com.atlantbh.jmeter.plugins.jsonutils.jsonpathextractor.gui.JSONPathExtractorGui
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_111]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_111]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source) ~[?:1.8.0_111]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_111]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_111]
+	at java.lang.Class.forName(Unknown Source) ~[?:1.8.0_111]
+	at org.apache.jmeter.gui.util.MenuFactory.initializeMenus(MenuFactory.java:499) ~[core/:?]
+	at org.apache.jmeter.gui.util.MenuFactory.<clinit>(MenuFactory.java:169) ~[core/:?]
+	at org.apache.jmeter.control.gui.WorkBenchGui.createPopupMenu(WorkBenchGui.java:119) ~[core/:?]
+	at org.apache.jmeter.gui.tree.JMeterTreeNode.createPopupMenu(JMeterTreeNode.java:156) ~[core/:?]
+	at org.apache.jmeter.gui.action.EditCommand.doAction(EditCommand.java:46) ~[core/:?]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:74) ~[core/:?]
+	at org.apache.jmeter.gui.action.ActionRouter.lambda$0(ActionRouter.java:59) ~[core/:?]
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source) [?:1.8.0_111]
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source) [?:1.8.0_111]
+	at java.awt.EventQueue.access$500(Unknown Source) [?:1.8.0_111]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_111]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_111]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_111]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_111]
+	at java.awt.EventQueue.dispatchEvent(Unknown Source) [?:1.8.0_111]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source) [?:1.8.0_111]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source) [?:1.8.0_111]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source) [?:1.8.0_111]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_111]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_111]
+	at java.awt.EventDispatchThread.run(Unknown Source) [?:1.8.0_111]
+2017-06-16 11:38:45,245 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.assertions.BSFAssertion
+2017-06-16 11:38:45,779 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.extractor.BSFPostProcessor
+2017-06-16 11:38:45,828 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.modifiers.BSFPreProcessor
+2017-06-16 11:38:45,866 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-06-16 11:38:45,866 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-06-16 11:38:45,866 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-06-16 11:38:45,867 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-06-16 11:38:45,867 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2017-06-16 11:38:45,867 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2017-06-16 11:38:46,317 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2017-06-16 11:38:46,318 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file D:\tools\eclipse-jee-neon-1a-win32-x86_64\eclipse\workspace\jmeter32\bin\proxyserver.jks
+2017-06-16 11:38:46,486 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.protocol.java.sampler.BSFSampler
+2017-06-16 11:38:46,552 INFO o.a.j.s.FileServer: Default base='D:\tools\eclipse-jee-neon-1a-win32-x86_64\eclipse\workspace\jmeter32'
+2017-06-16 11:38:46,634 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2017-06-16 11:38:46,634 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.sampler.MongoScriptSampler
+2017-06-16 11:38:46,961 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.timers.BSFTimer
+2017-06-16 11:38:47,011 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.visualizers.BSFListener
+2017-06-16 11:38:47,197 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2017-06-16 11:38:47,197 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2017-06-16 11:38:47,197 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2017-06-16 11:38:47,198 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
